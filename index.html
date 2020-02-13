@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
+</head>
+<body>
+<div class="background">
+    <header class="header">
+        <figure class="logo">
+            <img src="img/logo.svg">
+        </figure>
+        <nav class="top-menu">
+            <a class="top-menu__item" href="#">Woman</a>
+            <a class="top-menu__item" href="#">Men</a>
+            <a class="top-menu__item" href="#">Kids</a>
+            <a class="top-menu__item" href="#">Coming Soon</a>
+            <a class="top-menu__item" href="#">About</a>
+        </nav>
+        <div class="user">
+            <svg class="user__icon"
+                 xmlns="http://www.w3.org/2000/svg"
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 width="11px" height="17px">
+                <path class="user__icon"
+                      d="M5.525,8.650 C7.768,8.650 9.586,6.713 9.586,4.323 C9.586,1.937 7.768,-0.001 5.525,-0.001 C3.283,-0.001 1.467,1.937 1.467,4.323 C1.467,6.713 3.283,8.650 5.525,8.650 ZM2.472,3.917 L8.578,3.917 C8.593,4.054 8.615,4.186 8.615,4.323 C8.615,6.143 7.231,7.618 5.525,7.618 C3.819,7.618 2.436,6.143 2.436,4.323 C2.436,4.186 2.458,4.054 2.472,3.917 ZM7.336,8.588 C7.108,9.441 6.377,10.072 5.498,10.072 C4.623,10.072 3.892,9.441 3.663,8.588 C1.531,9.362 -0.001,11.424 -0.001,13.876 L-0.001,17.001 L11.001,17.001 L11.001,13.876 C11.001,11.424 9.467,9.362 7.336,8.588 Z"/>
+            </svg>
+            <div class="user__form">
+                <p>Hi, Michal <span class="spacer">(</span><a class="user__form_logout">logout</a><span>)</span></p>
+            </div>
+        </div>
+        <div class="basket">
+            <img class="basket__icon" src="img/basket__icon.svg">
+            <p><span class="basket__title">Basket</span> <span class="basket__count">(4)</span></p>
+        </div>
+        <div class="search">
+            <input class="search__input" placeholder="Search something..."></input>
+            <button class="search__button">
+                <svg class="search__icon"
+                     xmlns="http://www.w3.org/2000/svg"
+                     xmlns:xlink="http://www.w3.org/1999/xlink"
+                     width="16px" height="16px">
+                    <path d="M9.211,8.427 C8.867,8.814 8.733,8.957 8.443,9.167 C6.404,10.762 3.431,10.638 1.540,8.784 C-0.502,6.785 -0.514,3.531 1.515,1.519 C3.541,-0.495 6.840,-0.506 8.881,1.493 C10.807,3.379 10.927,6.383 9.229,8.408 L9.211,8.427 ZM7.963,2.404 C6.434,0.904 3.958,0.915 2.438,2.424 C0.916,3.933 0.925,6.374 2.456,7.872 C3.988,9.374 6.462,9.363 7.982,7.855 C9.502,6.344 9.495,3.905 7.963,2.404 ZM16.000,14.597 L14.687,15.999 L9.012,9.931 L9.958,8.995 L16.000,14.597 Z"/>
+                </svg>
+            </button>
+        </div>
+        <button class="top-menu__dropdown"><img class="top-menu__icon" src="img/top-menu__icon.svg"></button>
+    </header>
+    <main>
+        <div class="content">
+            <section class="content__breadcrumbs">
+                <p>Home<span class="devider">/</span>Men</p>
+            </section>
+            <section class="content__category_first-category">
+                <h2>Coats</h2>
+                <div class="content__show-more">
+                    <a class="content__show-more-link" href="#">show more</a>
+                    <svg class="content__show-more-icon"
+                         xmlns="http://www.w3.org/2000/svg"
+                         xmlns:xlink="http://www.w3.org/1999/xlink"
+                         width="6px" height="6px">
+                        <path d="M5.000,3.000 L0.001,0.001 L0.001,5.999 L5.000,3.000 "/>
+                    </svg>
+                </div>
+                <div class="content__category-items">
+                    <div class="content__category-item">
+                        <figure class="content__category-img-container"></figure>
+                        <div class="title">Double-Layered Top</div>
+                        <div class="price">€ 89,95</div>
+                    </div>
+
+                    <div class="content__category-item">
+                        <figure class="content__category-img-container"></figure>
+                        <div class="title">Double-Layered Top</div>
+                        <div class="price">€ 89,95</div>
+                    </div>
+
+                    <div class="content__category-item">
+                        <figure class="content__category-img-container"></figure>
+                        <div class="title">Double-Layered Top</div>
+                        <div class="price">€ 89,95</div>
+                    </div>
+
+                    <div class="content__category-item">
+                        <figure class="content__category-img-container"></figure>
+                        <div class="title">Double-Layered Top</div>
+                        <div class="price">€ 89,95</div>
+                    </div>
+                </div>
+            </section>
+            <section class="content__category">
+                <h2>Outerwear</h2>
+                <div class="content__show-more">
+                    <a class="content__show-more-link" href="#">show more</a>
+                    <svg class="content__show-more-icon"
+                         xmlns="http://www.w3.org/2000/svg"
+                         xmlns:xlink="http://www.w3.org/1999/xlink"
+                         width="6px" height="6px">
+                        <path d="M5.000,3.000 L0.001,0.001 L0.001,5.999 L5.000,3.000 "/>
+                    </svg>
+                </div>
+                <div class="content__category-items">
+                    <div class="content__category-item">
+                        <figure class="content__category-img-container"></figure>
+                        <div class="title">Double-Layered Top</div>
+                        <div class="price">€ 89,95</div>
+                    </div>
+
+                    <div class="content__category-item">
+                        <figure class="content__category-img-container"></figure>
+                        <div class="title">Double-Layered Top</div>
+                        <div class="price">€ 89,95</div>
+                    </div>
+
+                    <div class="content__category-item">
+                        <figure class="content__category-img-container"></figure>
+                        <div class="title">Double-Layered Top</div>
+                        <div class="price">€ 89,95</div>
+                    </div>
+
+                    <div class="content__category-item">
+                        <figure class="content__category-img-container"></figure>
+                        <div class="title">Double-Layered Top</div>
+                        <div class="price">€ 89,95</div>
+                    </div>
+                </div>
+            </section>
+            <section class="content__category">
+                <h2>T-shirts</h2>
+                <div class="content__show-more">
+                    <a class="content__show-more-link" href="#">show more</a>
+                    <svg class="content__show-more-icon"
+                         xmlns="http://www.w3.org/2000/svg"
+                         xmlns:xlink="http://www.w3.org/1999/xlink"
+                         width="5px" height="6px">
+                        <path fill-rule="evenodd" d="M5.000,3.000 L0.001,0.001 L0.001,5.999 L5.000,3.000 "/>
+                    </svg>
+                </div>
+
+                <div class="content__category-items">
+                    <div class="content__category-item">
+                        <figure class="content__category-img-container"></figure>
+                        <div class="title">Double-Layered Top</div>
+                        <div class="price">€ 89,95</div>
+                    </div>
+
+                    <div class="content__category-item">
+                        <figure class="content__category-img-container"></figure>
+                        <div class="title">Double-Layered Top</div>
+                        <div class="price">€ 89,95</div>
+                    </div>
+
+                    <div class="content__category-item">
+                        <figure class="content__category-img-container"></figure>
+                        <div class="title">Double-Layered Top</div>
+                        <div class="price">€ 89,95</div>
+                    </div>
+
+                    <div class="content__category-item">
+                        <figure class="content__category-img-container"></figure>
+                        <div class="title">Double-Layered Top</div>
+                        <div class="price">€ 89,95</div>
+                    </div>
+                </div>
+            </section>
+            <section class="lookbook">
+                <h4>Check our lookbook</h4>
+                <div class="lookbook__slider">
+                    <div class="lookbook__slides">
+                        <div class="arrow-left"><img src="img/icon-arrow-left.svg"></div>
+                        <div class="lookbook__slider-item"><img src="img/logo1.png"></div>
+                        <div class="lookbook__slider-item"><img src="img/logo2.png"></div>
+                        <div class="lookbook__slider-item"><img src="img/logo3.png"></div>
+                        <div class="lookbook__slider-item"><img src="img/logo4.png"></div>
+                        <div class="lookbook__slider-item"><img src="img/logo5.png"></div>
+                        <div class="lookbook__slider-item"><img src="img/logo6.png"></div>
+                        <div class="arrow-right"><img src="img/icon-arrow-right.svg"></div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <section class="footer__column_first">
+            <h3>Collection</h3>
+            <a class="column__item" href="#">Woman <span class="footer__collection-items-count">(1725)</span></a>
+            <a class="column__item" href="#">Men <span class="footer__collection-items-count">(635)</span></a>
+            <a class="column__item" href="#">Kids <span class="footer__collection-items-count">(2514)</span></a>
+            <a class="column__item" href="#">Coming Soon <span class="footer__collection-items-count">(76)</span></a>
+        </section>
+        <section class="footer__column">
+            <h3>Site</h3>
+            <a class="column__item" href="#">Terms of Service</a>
+            <a class="column__item" href="#">Privacy Policy</a>
+            <a class="column__item" href="#">Copyright Policy</a>
+            <a class="column__item" href="#">Press Kit</a>
+            <a class="column__item" href="#">Support</a>
+        </section>
+        <section class="footer__column">
+            <h3>Shop</h3>
+            <a class="column__item" href="#">About us</a>
+            <a class="column__item" href="#">Shipping Methods</a>
+            <a class="column__item" href="#">Career</a>
+            <a class="column__item" href="#">Contact</a>
+        </section>
+        <section class="footer__column_social">
+            <h3>Social</h3>
+            <p>Shoper is made with love in Warsaw,</p>
+            <p>2014 &copy; All rights reserved. El Passion</p>
+            <div class="footer__buttons-container">
+                <button class="footer__social-button">
+                    <svg class="footer__social-icon"
+                         xmlns="http://www.w3.org/2000/svg"
+                         xmlns:xlink="http://www.w3.org/1999/xlink"
+                         width="16px" height="13px">
+                        <path fill-rule="evenodd"
+                              d="M14.675,0.892 C14.094,1.245 13.450,1.501 12.765,1.639 C12.217,1.040 11.437,0.667 10.572,0.667 C8.913,0.667 7.567,2.045 7.567,3.745 C7.567,3.986 7.594,4.221 7.645,4.446 C5.148,4.318 2.933,3.092 1.451,1.230 C1.193,1.683 1.045,2.212 1.045,2.777 C1.045,3.845 1.576,4.787 2.381,5.339 C1.889,5.322 1.426,5.183 1.020,4.952 L1.020,4.991 C1.020,6.482 2.056,7.726 3.430,8.010 C3.179,8.079 2.913,8.117 2.639,8.117 C2.445,8.117 2.257,8.097 2.073,8.061 C2.456,9.284 3.565,10.174 4.880,10.200 C3.852,11.025 2.555,11.517 1.148,11.517 C0.905,11.517 0.666,11.502 0.431,11.474 C1.761,12.347 3.340,12.857 5.037,12.857 C10.565,12.857 13.587,8.167 13.587,4.099 L13.577,3.701 C14.166,3.268 14.676,2.726 15.079,2.109 C14.540,2.354 13.961,2.520 13.353,2.594 C13.974,2.213 14.449,1.609 14.675,0.892 Z"/>
+                    </svg>
+                </button>
+                <button class="footer__social-button">
+                    <svg class="footer__social-icon"
+                         xmlns="http://www.w3.org/2000/svg"
+                         xmlns:xlink="http://www.w3.org/1999/xlink"
+                         width="8px" height="15px">
+                        <path fill-rule="evenodd"
+                              d="M2.109,3.561 C2.109,3.907 2.122,5.597 2.122,5.597 L0.569,5.597 L0.569,7.762 L2.109,7.759 L2.122,14.620 L5.228,14.620 L5.228,7.762 L7.217,7.759 C7.217,7.759 7.368,6.807 7.461,5.597 C7.194,5.597 5.228,5.597 5.228,5.597 C5.228,5.597 5.178,4.097 5.178,3.862 C5.178,3.626 5.511,3.309 5.841,3.309 C6.169,3.309 6.863,3.309 7.506,3.309 C7.506,2.994 7.506,1.908 7.506,0.905 C6.648,0.905 5.672,0.905 5.242,0.905 C2.034,0.905 2.109,3.216 2.109,3.561 Z"/>
+                    </svg>
+                </button>
+                <button class="footer__social-button">
+                    <svg class="footer__social-icon"
+                         xmlns="http://www.w3.org/2000/svg"
+                         xmlns:xlink="http://www.w3.org/1999/xlink"
+                         width="16px" height="15px">
+                        <path d="M13.790,3.606 C13.790,4.111 13.376,4.520 12.866,4.520 L11.989,4.520 C11.478,4.520 11.065,4.111 11.065,3.606 L11.065,2.739 C11.065,2.235 11.478,1.826 11.989,1.826 L12.866,1.826 C13.376,1.826 13.790,2.235 13.790,2.739 L13.790,3.606 L13.790,3.606 ZM13.790,12.023 C13.790,12.527 13.315,12.937 12.805,12.937 L3.568,12.937 C3.058,12.937 2.548,12.527 2.548,12.023 L2.548,7.459 C2.548,6.955 3.058,6.539 3.568,6.539 C3.568,6.539 3.802,6.539 4.091,6.539 C4.127,6.539 4.161,6.543 4.193,6.549 C4.388,6.585 4.513,6.724 4.526,6.903 C4.529,6.933 4.527,6.964 4.523,6.995 C4.520,7.017 4.571,7.039 4.569,7.060 C4.553,7.191 4.592,7.323 4.592,7.457 C4.592,7.457 4.592,7.458 4.592,7.458 C4.592,9.452 6.160,11.070 8.169,11.106 C8.146,11.107 8.099,11.109 8.076,11.109 C8.099,11.109 8.109,11.107 8.131,11.106 C8.154,11.107 8.170,11.109 8.193,11.109 C10.233,11.109 11.884,9.474 11.885,7.458 C11.885,7.324 11.871,7.191 11.856,7.061 C11.854,7.039 11.854,7.016 11.851,6.996 C11.847,6.964 11.845,6.934 11.848,6.903 C11.861,6.724 11.986,6.585 12.180,6.549 C12.213,6.543 12.247,6.539 12.283,6.539 L12.805,6.539 C13.315,6.539 13.790,6.955 13.790,7.459 L13.790,12.023 L13.790,12.023 ZM6.339,7.459 C6.339,7.459 6.486,5.633 8.187,5.633 C9.888,5.633 10.034,7.459 10.034,7.459 C10.034,7.459 10.088,9.284 8.187,9.284 C6.286,9.284 6.339,7.459 6.339,7.459 ZM13.646,0.143 L2.692,0.143 C1.672,0.143 0.844,0.960 0.844,1.968 L0.844,12.794 C0.844,13.802 1.672,14.620 2.692,14.620 L13.646,14.620 C14.666,14.620 15.493,13.802 15.493,12.794 L15.493,1.968 C15.493,0.960 14.666,0.143 13.646,0.143 "/>
+                    </svg>
+                </button>
+            </div>
+        </section>
+    </footer>
+</div>
+</body>
+</html>

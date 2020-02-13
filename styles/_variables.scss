@@ -1,0 +1,56 @@
+/* Colors */
+$c-primary-dark-gray: #363636;
+$c-secondary-dark-gray: #606060;
+$c-additional-dark-gray: #303030;
+$c-primary-middle-gray: #959595;
+$c-secondary-middle-gray: #bbbbbb;
+$c-primary-light-gray: #e5e5e5;
+$c-secondary-light-gray: #eaeaea;
+$c-white: #fff;
+$c-orange: #f68236;
+
+$c_background: $c-white;
+$c_body: $c-primary-light-gray;
+$c-main-text: $c-additional-dark-gray;
+$c-user-icon: $c-primary-dark-gray;
+$c-search-button: $c-white;
+$c-search-button-border: $c-primary-middle-gray;
+$c-search-button-hover: $c-secondary-dark-gray;
+$c-search-button-icon: $c-primary-dark-gray;
+$c-search-button-icon-hover: $c-white;
+$c-search-input-border: $c-primary-middle-gray;
+$c-header-border: $c-primary-light-gray;
+$c-user-logout: $c-orange;
+$c-content-breadcrumbs: $c-secondary-dark-gray;
+$c-show-more: $c-secondary-dark-gray;
+$c-show-more-hover: $c-primary-middle-gray;
+$c-img-container-border: $c-primary-light-gray;
+$c-footer-separator: $c-secondary-light-gray;
+$c-header-icons: $c-additional-dark-gray;
+$c-column-items: $c-additional-dark-gray;
+$c-lookbook-border: $c-primary-light-gray;
+$c-lookbook-arrow-background: $c-primary-light-gray;
+$c-lookbook-slider-background: $c-secondary-middle-gray;
+$c-lookbook-h4: $c-secondary-dark-gray;
+$c-lookbook-slider-arrow: $c-white;
+$c-footer-social-button-border: $c-secondary-dark-gray;
+$c-footer-social-button-background: $c-white;
+$c-footer-social-button-hover: $c-secondary-dark-gray;
+$c-footer-social-icon: $c-secondary-dark-gray;
+$c-footer-social-icon-hover: $c-white;
+
+/* Fonts */
+$font-family-text: 'Lato', sans-serif;
+$font-family-h4-lookbook:  Georgia, Times, "Times New Roman", serif;
+$font-family-show-more:  Georgia, Times, "Times New Roman", serif;
+
+/* Calc */
+$content-min-height-desktop: calc(100vh - 150px - 115px - 250px);
+$content-min-height-bp1: calc(100vh - 80px - 280px);
+
+/* Breakpoints */
+$b-1: 481px;
+
+/* Z-index */
+$z-lookbook-slider_arrow_container: 2;
+$z-lookbook-slider_arrow: 3;
